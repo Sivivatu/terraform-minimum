@@ -27,7 +27,7 @@ output "username" {
 
 data "terraform_remote_state" "dev" {
   backend = "remote"
-  # workspace = "dev"
+  workspace = "dev"
   config = {
     organization = "The-Information-Lab"
     workspaces = {
