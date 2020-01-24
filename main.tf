@@ -32,7 +32,7 @@ data "terraform_remote_state" "dev" {
     organization = "The-Information-Lab"
     workspaces = {
       # name = "minimum-dev"
-      prefix = "minimum-"
+      prefix = "terraform-minimum-"
     }
   }
 }
